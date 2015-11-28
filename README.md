@@ -8,8 +8,11 @@ The scripts scrape the HTML page containing the image file names rather than use
 Usage:
 
 python 4chan_getthread.py threadType threadNumber
+
 python imgur_getalbum.py albumName
+
 python reddit_getalbum.py subredditName
+
 python twitter_getpics.py twitterHandle
 
 Options:
