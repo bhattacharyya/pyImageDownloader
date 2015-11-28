@@ -7,13 +7,13 @@ The scripts scrape the HTML page containing the image file names rather than use
 
 Usage:
 
-python 4chan_getthread.py threadType threadNumber
+`python 4chan_getthread.py threadType threadNumber`
 
-python imgur_getalbum.py albumName
+`python imgur_getalbum.py albumName`
 
-python reddit_getalbum.py subredditName
+`python reddit_getalbum.py subredditName`
 
-python twitter_getpics.py twitterHandle
+`python twitter_getpics.py twitterHandle`
 
 Options:
 --ftype : yes downloads the files along with the file type appended (e.g. .jpg or .png). It is not recommended unless necessary. The image viewers do a better job of automatically figuring out the file type. Default option is "no"
