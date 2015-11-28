@@ -7,7 +7,7 @@ The scripts scrape the HTML page containing the image file names rather than use
 
 Usage:
 
-`python 4chan_getthread.py threadType threadNumber`
+`python 4chan_getthread.py threadType threadId` (e.g. python 4chan_getthread.py hr 2463159)
 
 `python imgur_getalbum.py albumName`
 
