@@ -24,7 +24,7 @@ import optparse
 parser = optparse.OptionParser()
 
 parser.add_option('--ftype', action="store_true", default=False)
-parser.add_option('--limit', action="store", dest="limit", type="int", default=100)
+parser.add_option('--limit', action="store", dest="limit", type="int", default=200)
 options, args = parser.parse_args()
 
 if len(sys.argv) < 3:
@@ -75,9 +75,11 @@ for i in words:
 						break
 if(count > 1):
 	print "\nAll Images Downloaded \n"
+	os.remove("temp.txt")
         os.chdir("../")
 else:
         print "\nNo Image to Download \n"
+	os.remove("temp.txt")
         os.chdir("../")
 	if empty == 1:
         	os.rmdir(sys.argv[1]+str(sys.argv[2]))
