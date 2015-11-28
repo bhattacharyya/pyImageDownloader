@@ -5,6 +5,13 @@ All you need is python installed in your machine. You don't need to install addi
 
 The scripts scrape the HTML page containing the image file names rather than use the specific API. So in many cases all possible images may not be downloaded. For example you will get a max of 60 images downloaded from Imgur instead of the full album.
 
+Usage:
+
+python 4chan_getthread.py threadType threadNumber
+python imgur_getalbum.py albumName
+python reddit_getalbum.py subredditName
+python twitter_getpics.py twitterHandle
+
 Options:
 --ftype : yes downloads the files along with the file type appended (e.g. .jpg or .png). It is not recommended unless necessary. The image viewers do a better job of automatically figuring out the file type. Default option is "no"
 
